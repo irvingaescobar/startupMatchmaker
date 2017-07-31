@@ -1,0 +1,14 @@
+.my-title-style {
+	color:yellow;
+}
+
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+
+ }
+
+ .nav-style-1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: sans-serif;
+ }
