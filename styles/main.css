@@ -1,41 +1,33 @@
-#my-theme .max-width {
-    min-width: 100%;
+
+.mdl-layout__header {
+	background-color:black;
+	border-bottom: yellow;
 }
 
-
-#my-theme .top-header-style {
-    background: black;
-    color: yellow;
-    font-family: serif;
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
 }
 
-#my-theme .bottom-header-style {
-    background: black;
-    border-bottom: solid yellow .5rem;
-    padding-left: 0px;
-    color: white;
- }
-
-#my-theme .nav-styling {
-    padding-right: 0px;
-    padding-left: 0px;
-	background: black;
-    color: white;
-    border-bottom: solid yellow .5rem;
- }
-
-#my-theme .nav-theming-top {
-	text-transform: uppercase;
-}
-
-.sub-header-1 {
-	font-style: italic;
+.my-title-style {
+	color:yellow;
 	font-family: serif;
+	font-size: 42px;
+	font-weight: bold;
 }
 
-.background-image: url("coworking.jpg");
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
 
-#my-theme .left-border {
-	border-left: 1px;
-	color:black;
-}
+ }
+
+.nav-link-style-1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 16px;
+ }
+
+
+ .mdl-mini-footer {
+ 	background-color:black;
+ }
+
