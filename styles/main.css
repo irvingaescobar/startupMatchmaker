@@ -1,4 +1,41 @@
-.header-style-find {
+#my-theme .max-width {
+    min-width: 100%;
+}
+
+
+#my-theme .top-header-style {
+    background: black;
+    color: yellow;
+    font-family: serif;
+}
+
+#my-theme .bottom-header-style {
+    background: black;
+    border-bottom: solid yellow .5rem;
+    padding-left: 0px;
+    color: white;
+ }
+
+#my-theme .nav-styling {
+    padding-right: 0px;
+    padding-left: 0px;
+	background: black;
+    color: white;
+    border-bottom: solid yellow .5rem;
+ }
+
+#my-theme .nav-theming-top {
 	text-transform: uppercase;
-	font-weight: bolder;
+}
+
+.sub-header-1 {
+	font-style: italic;
+	font-family: serif;
+}
+
+.background-image: url("coworking.jpg");
+
+#my-theme .left-border {
+	border-left: 1px;
+	color:black;
 }
