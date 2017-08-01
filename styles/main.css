@@ -1,5 +1,18 @@
+
+.mdl-layout__header {
+	background-color:black;
+	border-bottom: yellow;
+}
+
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+
 .my-title-style {
 	color:yellow;
+	font-family: serif;
+	font-size: 42px;
+	font-weight: bold;
 }
 
 .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
@@ -7,8 +20,14 @@
 
  }
 
- .nav-style-1 {
+.nav-link-style-1 {
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: sans-serif;
+	font-size: 16px;
  }
+
+
+ .mdl-mini-footer {
+ 	background-color:black;
+ }
+
